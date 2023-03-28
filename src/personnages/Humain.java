@@ -22,8 +22,8 @@ public class Humain {
 	public int getArgent() {
 		return argent;
 	}
-
-	public void setArgent(int argent) {
+	
+	protected void setArgent(int argent) {
 		this.argent = argent;
 	}
 
