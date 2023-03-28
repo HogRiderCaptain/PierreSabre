@@ -19,7 +19,7 @@ public class Humain {
 		this.nom = nom;
 	}
 
-	public int getArgent() {
+	protected int getArgent() {
 		return argent;
 	}
 	
@@ -55,6 +55,6 @@ public class Humain {
 	}
 
 	public void parler(String texte) {
-		System.out.println("(Prof) - " + texte);
+		System.out.println("("+getNom()+") - " + texte);
 	}
 }
